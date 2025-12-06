@@ -25,3 +25,68 @@ En pocas palabras, **un IP Scanner es como un “radar” de tu red**, mostrando
 LINK DE DESCARGA : https://www.advanced-ip-scanner.com/es/
 
 ################################################################################################################################
+
+Cisco paquet tracer :
+
+## 🌐 ¿Qué es Cisco Packet Tracer?
+
+**Cisco Packet Tracer (CPT)** es un **simulador de redes** desarrollado por **Cisco Systems**, una de las empresas líderes en equipos de *networking*.
+
+A diferencia de un emulador (que ejecuta el sistema operativo real de un dispositivo), Packet Tracer **simula** el comportamiento, la lógica y los comandos de los dispositivos de red (como *routers*, *switches*, PCs, servidores y *firewalls*). Esto lo convierte en una herramienta **ligera**, **rápida** y **gratuita** (a través de la Cisco Networking Academy), ideal para el aprendizaje.
+
+¡Claro! No hay problema. Te presento las **características de Cisco Packet Tracer** utilizando únicamente **listas y viñetas** para un formato fácil de leer.
+
+---
+
+## ✨ Características de Cisco Packet Tracer
+
+Cisco Packet Tracer (CPT) es conocido por las siguientes funcionalidades que facilitan el aprendizaje y la simulación de redes:
+
+* **Interfaz de Línea de Comandos (CLI) Simulada:**
+    * Permite a los usuarios practicar la **configuración** de dispositivos utilizando la sintaxis real del **Cisco IOS**.
+    * Simula comandos de *routers* y *switches* con un alto grado de fidelidad.
+
+* **Modo de Simulación:**
+    * Una herramienta fundamental para la **observación detallada** del flujo de datos.
+    * Permite enviar paquetes de datos (*PDU*) y ver su **trayectoria paso a paso** a través de la red, incluyendo cómo los dispositivos los procesan.
+    * Ayuda a comprender en profundidad los protocolos de red (como TCP/IP, ARP, ICMP, etc.).
+
+* **Amplia Variedad de Dispositivos:**
+    * Incluye dispositivos de **Capas 1, 2 y 3** (física, enlace de datos y red), como *routers* modulares, *switches* multinivel, concentradores (*hubs*), y puntos de acceso inalámbrico.
+    * Soporte para **dispositivos finales** como PCs, laptops, servidores (con servicios como HTTP, DNS, DHCP) e impresoras.
+    * Integración de dispositivos de **IoT** (Internet de las Cosas) para simular entornos inteligentes.
+
+* **Conexiones Físicas y Lógicas:**
+    * Permite seleccionar y conectar dispositivos utilizando los **tipos de cableado correctos** (cruzado, directo, de consola, fibra óptica).
+    * Incluye una vista de **Entorno Físico** para practicar el montaje y cableado en un *rack* simulado.
+
+* **Entornos de Desarrollo y Automatización:**
+    * Incluye la capacidad de integrar scripts de **Python** para la automatización de tareas de red y la programación de dispositivos IoT.
+
+* **Actividades y Evaluación Integradas:**
+    * Permite a los instructores crear **escenarios de aprendizaje preconfigurados** (archivos `.pka`).
+    * Ofrece un sistema de **autoevaluación** que califica la configuración y el cumplimiento de los objetivos por parte del estudiante.
+
+
+## 💡 ¿Para qué Sirve Cisco Packet Tracer?
+
+Su propósito principal es educativo, pero también se utiliza para tareas básicas de diseño:
+
+### 1. Preparación para Certificaciones
+Es la herramienta fundamental para los estudiantes que se preparan para las certificaciones de Cisco, especialmente la **CCNA** (Cisco Certified Network Associate) y otros niveles de la Cisco Networking Academy.
+
+### 2. Diseño y Experimentación de Redes
+* **Crear topologías:** Permite arrastrar y soltar dispositivos, conectarlos con el cable correcto (automático o manual) y construir cualquier topología de red, desde la más sencilla hasta la más compleja.
+* **Probar configuraciones:** Puedes configurar protocolos de enrutamiento (como OSPF o EIGRP), listas de control de acceso (ACLs), VLANs, y luego probar su funcionamiento antes de aplicarlos en *hardware* real.
+* **Resolver problemas (*Troubleshooting*):** Es un entorno seguro para practicar la identificación y resolución de fallas de conectividad.
+
+### 3. Visualización del Flujo de Datos
+El **Modo de Simulación** permite a los usuarios ver en tiempo real cómo los paquetes de datos son procesados por los *routers* y *switches* (encapsulación, desencapsulación, decisiones de *forwarding*), lo cual es crucial para entender la teoría de redes.
+
+### 4. Entorno de Aprendizaje Sin Costo
+Ofrece un "laboratorio" virtual gratuito donde los estudiantes pueden cometer errores, experimentar y repetir configuraciones tantas veces como sea necesario sin dañar equipos o redes reales.
+
+Link de descarga : https://www.netacad.com/es/cisco-packet-tracer
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
