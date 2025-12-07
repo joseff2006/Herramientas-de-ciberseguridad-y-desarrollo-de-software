@@ -1,0 +1,30 @@
+Aquí tienes algunos **links oficiales y confiables** para descargar imágenes ISO de los sistemas que mencionaste — Kali Linux, Ubuntu (o Ubuntu Server) y el sistema de macOS — desde sus fuentes legítimas:
+
+## ✅ Enlaces oficiales para descargas ISO / imágenes
+
+| Sistema operativo          | Enlace / sitio oficial                                                                                                                                                                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Kali Linux**             | Descargas oficiales: [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/) ([Kali Linux][1])                                                                                                                                                      |
+|                            | Documentación + verificación de ISO: [https://www.kali.org/docs/introduction/download-official-kali-linux-images/](https://www.kali.org/docs/introduction/download-official-kali-linux-images/) ([Kali Linux][2])                                            |
+| **Ubuntu / Ubuntu Server** | Página oficial de descargas de Ubuntu: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)  (para escritorio) o [https://ubuntu.com/download/server](https://ubuntu.com/download/server)  (para servidor) ([Ubuntu Documentation][3]) |
+|                            | Archivos ISO directos/mirror: p.ej. [https://releases.ubuntu.com/](https://releases.ubuntu.com/)  — desde ahí puedes descargar versiones específicas de Ubuntu (desktop o server). ([Ubuntu Releases][4])                                                    |
+| **macOS**                  | Para descargar o reinstalar macOS oficialmente → guía de soporte de Apple: [https://support.apple.com/es-es/102662](https://support.apple.com/es-es/102662) ([Apple Support][5])                                                                             |
+
+---
+
+### ⚠️ Importante — Sobre seguridad y legalidad
+
+* En el caso de **Kali Linux**, debes **descargar solo desde su sitio oficial**. Usar ISOs de sitios de terceros puede ser peligroso (software modificado, malware, etc.). ([OnWorks.net][6])
+* Para **Ubuntu**, usa siempre su página oficial o mirrors oficiales para asegurarte de obtener una imagen limpia y actualizada. ([Ubuntu Documentation][3])
+* Para **macOS**, Apple no ofrece típicamente “ISOs bootables” listos al público como Linux. Las descargas oficiales pasan por su sistema de actualizaciones / App Store / recuperación del sistema — así que la forma “oficial” de obtener macOS es mediante esos métodos documentados por Apple. ([Apple Support][5])
+
+---
+
+ con ISO de Kali, Ubuntu (distintos sabores: Desktop, Server, LTS), y métodos para descargar macOS oficialmente cuando aplique. ¿Te lo armo?
+
+[1]: https://www.kali.org/get-kali/?utm_source=chatgpt.com "Get Kali | Kali Linux"
+[2]: https://www.kali.org/docs/introduction/download-official-kali-linux-images/?utm_source=chatgpt.com "Downloading Kali Linux | Kali Linux Documentation"
+[3]: https://help.ubuntu.com/community/GettingUbuntu?utm_source=chatgpt.com "GettingUbuntu - Community Help Wiki"
+[4]: https://cl.releases.ubuntu.com/focal/?utm_source=chatgpt.com "Index of /focal/"
+[5]: https://support.apple.com/es-es/102662?utm_source=chatgpt.com "Cómo descargar e instalar macOS - Soporte técnico de Apple (ES)"
+[6]: https://www.onworks.net/es/documentation/kalilinuxrevealed/part21.php?utm_source=chatgpt.com "Dónde descargar de la guía Kali Linux de OnWorks"
