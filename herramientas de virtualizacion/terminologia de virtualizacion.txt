@@ -1,1 +1,84 @@
 
+
+1. Hypervisor
+
+Software que permite crear y manejar máquinas virtuales.
+Ej.: VMware ESXi, Hyper-V, VirtualBox.
+
+2. Máquina Virtual (VM)
+
+Computadora simulada dentro de otra computadora física.
+
+3. Host
+
+La máquina física donde corren las máquinas virtuales.
+
+4. Guest
+
+El sistema operativo que corre dentro de la máquina virtual.
+
+5. Snapshot
+
+Una “foto” del estado de la VM para restaurarla luego.
+
+6. Clonación**
+
+Crear una copia exacta de una máquina virtual.
+
+7. vCPU**
+
+Procesador virtual asignado a la máquina virtual.
+
+8. vRAM / RAM Virtual**
+
+Memoria virtual asignada a la máquina virtual.
+
+9. vNIC**
+
+Tarjeta de red virtual asignada a la VM.
+
+10. Storage Virtual**
+
+Almacenamiento que se usa para guardar las VMs.
+
+11. Virtual Switch**
+
+Un switch virtual que maneja la comunicación entre VMs.
+
+12. Virtual Network**
+
+Red creada digitalmente dentro del entorno de virtualización.
+
+13. Provisioning**
+
+El proceso de asignar recursos a una VM.
+
+14. Thin Provisioning**
+
+La VM solo usa el espacio de disco que necesita, aunque tenga más asignado.
+
+15. Thick Provisioning**
+
+La VM reserva todo el espacio de disco asignado desde el inicio.
+
+16. Live Migration**
+
+Mover una VM de un servidor a otro sin apagarla.
+
+17. High Availability (HA)**
+
+Función que mantiene las VMs funcionando aunque falle un host.
+
+18. vCenter / Management Console**
+
+Consola central para administrar múltiples hosts y VMs.
+
+19. Containerización**
+
+Tipo de virtualización más ligera.
+Ej.: Docker, Kubernetes.
+
+20. Virtual Appliance**
+
+Una VM ya lista para usar con una app preinstalada.
+
