@@ -86,7 +86,7 @@ El **Modo de Simulación** permite a los usuarios ver en tiempo real cómo los p
 ### 4. Entorno de Aprendizaje Sin Costo
 Ofrece un "laboratorio" virtual gratuito donde los estudiantes pueden cometer errores, experimentar y repetir configuraciones tantas veces como sea necesario sin dañar equipos o redes reales.
 
-Link de descarga : https://www.netacad.com/es/cisco-packet-tracer
+Link de descarga : https://www.netacad.com/resources/lab-downloads?utm_source=chatgpt.com&courseLang=en-US
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
