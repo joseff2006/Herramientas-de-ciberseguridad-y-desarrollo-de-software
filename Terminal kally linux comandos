@@ -1,1 +1,3 @@
-cat [nombre del archivo ]       * significa concatenate y se usa para mostrar el contenido completo e un archivo en la terminal , es como el type de el cmd de windows 
+1 cat [nombre del archivo ]       * significa concatenate y se usa para mostrar el contenido completo e un archivo en la terminal , es como el type de el cmd de windows 
+
+2 grep [¨ open ¨]  [nombre del archivo ]  * busca en el documento la palabra señalada entre comillas 
