@@ -6,3 +6,12 @@ inicios de sesión, errores, advertencias, procesos ejecutados y cambios importa
 \es fundamental porque ayuda a detectar accesos remotos, intentos de intrusión, borrado de registros y
 cualquier comportamiento sospechoso, convirtiéndose en una herramienta clave para el diagnóstico, la 
 auditoría y el análisis forense de un equipo.
+
+2 firewall - se abre buscando en la barra de tareas   , con el puedo abrri y cerrar o asignarle una funcion especifica a un  puerto. 
+
+	Filtrado de tráfico de red: Examina los datos que entran y salen de tu PC y decide si permitirlos o bloquearlos según reglas de seguridad.
+• 	Protección contra intrusiones: Evita que hackers o programas maliciosos accedan a tu sistema desde Internet o redes locales.
+• 	Control de aplicaciones: Permite configurar qué programas pueden conectarse a Internet y cuáles no.
+• 	Gestión de puertos y protocolos: Puedes abrir o cerrar puertos específicos (ej. 80 para web, 443 para HTTPS) según tus necesidades.
+• 	Perfiles de red: Ajusta la seguridad dependiendo de si estás en una red pública, privada o de dominio.
+
