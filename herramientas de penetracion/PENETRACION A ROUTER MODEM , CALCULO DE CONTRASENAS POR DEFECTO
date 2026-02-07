@@ -40,7 +40,7 @@ coneccion de un gatwey predeterminada
 ya que unos tienen menos frecuencias que otra. 
 
 
-14 direciion unica del adaptador de red de cualquier dispositivo que se coinecte a una red  o que 
+14 Direciion unica del adaptador de red de cualquier dispositivo que se coinecte a una red  o que 
   comparta la conexion de una red.
 
 15 Es decir, cuando solicito la conexion a una red , comparto mi direccion mac, y 
@@ -68,21 +68,74 @@ multifuncion y una vez registradas y verificadas las credenciales de acceso, se 
 
 21 LABORATORIO : CALCULAR LA CONTRASENA POR DEFECTO DE UN ROUTER DE BOLSILLO PARTIENDO DE SU SSID Y DE SU DIRECCION MAC
 
-DATOS EJEMPLO CON EL PORTATIL DEL PROFESOR  
+22 DATOS EJEMPLO CON EL PORTATIL DEL PROFESOR  
 
      SSID:CLARO_INTERNET_2.4GHZ_DB1
       MAC:?
 CONTRASENA:? 
 
-FORMULA: EL NOMBRE DEL ISP +ULTIMOS 4 DIGITOS DE LA MAC 
+FORMULA: EL NOMBRE DEL ISP= al proveedor o dueno del router en este caso la empresa fabricante +ULTIMOS 4 DIGITOS DE LA MAC 
 
-NOTA: EN EL SSID POR DEFECTO, SE OBTIENE EL NOMBRE DEL ISP 
+NOTA: (vulnerabilidad ) EN EL SSID POR DEFECTO, SE OBTIENE EL NOMBRE DEL ISP 
 Y LOS 3 DIGITOS DE LA MAC, POR ENDE SOLO NECESITAMOS CALCULAR EL 
 ULTIMO DIGITO DE LA MAC PARA COMPLETAR LA CONTRASENA.
 
-Diccionario de posibles contrasenas:  
+CLARO_INTERNET_2.4GHZ_DB1
+ISP= CLARO
+ULTIMOS 3 DIGITOS DE LA MAC : DB1
+CONTRASENA CLARO(?)DB1
 
+Diccionario de posibles contrasenas:
 
+-Tres posibilidades, el nombre del ISP puedes estar todo en mayuscula,Todo en minuscula, o solo la primera letra en mayuscula 
 
+CLARO(A)DB1 claro(a)DB1  Claro(a)DB1 / LAS MAC VIENEN POR DEFECTO EN MAYUSCULAS
+                                       A EXCEPCION DE ALGUNAS VARIANTES, Y EN LAS 
+                                       CONTRASENAS LOS PROVEEDORES LA PONENE EN 
+                                       MINUSCULA EN LA CONTRASENA POR ESO ES BUENO 
+                                       PROBARLA CON MAYUSCULAS O MINUSCULAS 
+CLAROADB1
+CLAROBDB1
+CLAROCDB1
+CLARODDB1   
+CLAROEDB1
+CLAROFDB1
+CLAROGDB1
+CLAROHDB1
+CLAROIDB1
+CLAROJDB1
+CLAROKDB1
+CLAROLDB1
+CLAROMDB1
+CLARONDB1
+CLAROODB1
+CLAROPDB1
+CLAROQDB1
+CLARORDB1
+CLAROSDB1
+CLAROTDB1
+CLAROUDB1
+CLAROVDB1
+CLAROWDB1
+CLAROXDB1
+CLAROYDB1
+CLAROZDB1
 
+/// O con numero ///
+
+CLARO1DB1
+CLARO2DB1
+CLARO3DB1
+CLARO4DB1
+CLARO5DB1
+CLARO6DB1
+CLARO7DB1
+CLARO8DB1
+CLARO9DB1
+
+23 /////////// LOS ROUTERS POR DEFECTO NO TIENEN LIMITE DE INTENTOS ,LOS HACKER 
+SE CONECTAN FABRICANDO SCRIPTS QUE EJECUTAN HASTA 1000 VARIABLES DE CONTRASENA, 
+UNA FORMA DE CONTRARSTAR ESO ES PONER LIMITE ATRAVEZ DEL FIRE WALL A UN NUMERO 
+LIMITADO DE INTENTOS Y SI VEMOS QUE UNA MAC EJECUTO MAS DE LOS INTENTOS PUESTOS 
+SE PONGA ESA M,AC EN UNA LISTA NEGRA. 
 
