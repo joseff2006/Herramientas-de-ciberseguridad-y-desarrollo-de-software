@@ -8,4 +8,14 @@ ENCRIPTACION DE CONTRASENAS :
 1 Jose Ismael 
   f053 15w@37
 
-34-17-EB-B7-AB-81
+34-17-EB-B7-AB-81 = direccion mac o fisica o mac address 
+
+direciion unica del adaptador de red de cualquier dispositivo que se coinecte a una red  o que 
+comparta la conexion de una red.
+
+Es decir, cuando solicito la conexion a una red , comparto mi direccion mac, y 
+cuando comparto o pongo a disposicion unha red para que 
+se conecten a diche red a travez de mi , comparto la direccion mac de
+mi adaptador.
+
+UNA DIRECCION MAC, ESTA COMPUESTA POR 6 GRUPOS DE 2  
