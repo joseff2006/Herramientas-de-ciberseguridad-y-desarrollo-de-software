@@ -18,25 +18,54 @@ coneccion de un gatwey predeterminada
 5 MODEN : Modulator/demodulador = modulador,demodulador : convierte la senal electromagnetica 
  a senal electrica y viseversa.
 
-6 Router: tiene un modem integrado
-7 Switch: tiene un modem integrado
-8 firewall tiene un modem integrado 
+6 Router: tiene un modem integrado (ADMINISTRA  REDES POR IP)
+
+7 un router puede tener varias redes dentro del mismo , ejemplo una maquina con maquina virtual dentro
+  eso dependera de la cantidad de antenas muchas veces que se vinculan a dispositivos multifuncion que 
+  estan dentro una antena puede estar concectada a un sircuito0 que tenga un router, modem,firewall en 
+  un modulko de una antera y un router tenga 3, serian 3 targetas de red diferentes.
+
+8 Switch: tiene un modem integrado (ADMINISTRA  REDES POR MAC)
+
+9 firewall tiene un modem integrado (ADMINSISTRA REDES POR POLITICAS DE SEGURIDAD) 
+
+10 REPETIDOR: TIENE UN MODEM INTEGRADO (replica la configuracion de la red para mayor cobertura)
+
+11 DISPOSITIVO MULTIFUNCION: equipo electronico compuesto por un router, 1 sitch , un firewall y un modem.
+  este es el que tenemos en la casa.
+
+12 MEDIOS DE CONEXION: COBRE, FIBRA OPTICA, Y SENALES ELECTROMAGNETICAS 
+
+13 Todo lo que se conecta de forma inalambrica a algo , modula y desmodula aunque disferentes dimenciones
+ya que unos tienen menos frecuencias que otra. 
 
 
-9 MEDIOS DE CONEXION: COBRE, FIBRA OPTICA, Y SENALES ELECTROMAGNETICAS 
-
-
-10 direciion unica del adaptador de red de cualquier dispositivo que se coinecte a una red  o que 
+14 direciion unica del adaptador de red de cualquier dispositivo que se coinecte a una red  o que 
   comparta la conexion de una red.
 
-11 Es decir, cuando solicito la conexion a una red , comparto mi direccion mac, y 
+15 Es decir, cuando solicito la conexion a una red , comparto mi direccion mac, y 
  cuando comparto o pongo a disposicion unha red para que 
  se conecten a diche red a travez de mi , comparto la direccion mac de
  mi adaptador.
 
-12 Unidad de frecuencia para medir la freuencia electromagnetica se llama GHZ , Y ESTO MIDE LA CANTIDAD DE  
+16 Unidad de frecuencia para medir la freuencia electromagnetica se llama GHZ , Y ESTO MIDE LA CANTIDAD DE  
 FRECUENCIA VECES QUE SE REPITE UNA ONDA ELECTROMAGNETICA EN EL ESPACIO TIEMPO.
 
-13  UNA DIRECCION MAC, ESTA COMPUESTA POR 6 GRUPOS DE 2  DIGITOS 
+17  UNA DIRECCION MAC, ESTA COMPUESTA POR 6 GRUPOS DE 2  DIGITOS 
   (estos pueden ser del 0 al 9 y de la letra A ala letra Z)
+
+l8 Los ISP (INTERNET SERVICES PROVIDERS) TE SUMINISTRAN UN DISPOSITIVO MULTIFUNCION
+( SEA DE CASA O DE BOLSILLO) PARA QUE TE CONECTES A INTERNET A TARVEZ DE DICHO 
+DISPOSITIVO.
+
+19 CADA DISPOSITIVO MULTIFUNCION ( EL ROUTER INALAMRICO ) TIENE UNA TARGETA DE RED  "INALAMBRICA " POR DONDE
+TRANSMITE EL CANAL ,EL SSID ( ES IGUAL AL NOMBRE DEL LA RED ) Y LA DIRECCION MAC DE SU TARGETA , EN ESPERA DE SOLICITUDES DE CONECCION HACIA ESA 
+RED POR PARTE DE OTROS DISPOSITIVOS.
+
+20 cuando un dispositivo final con el adaptador inalambrico encendido detecta la señal de conexion del dispositivo 
+multifuncion, este dispositivo, puede ver SSID de la red y puede solicitar una session de conexion con el dispositivo 
+multifuncion y una vez registradas y verificadas las credenciales de acceso, se establece la conexion entre ambos dispositivos.
+
+21 LABORATORIA 
+
 
