@@ -30,5 +30,38 @@ ejemplo:
 powershell
 Get-Process -name "chrome"
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ **Comando Principal de Análisis (Lab #2)**
+
+Este comando filtra procesos específicos basándose en su uso de memoria:
+
+powershell
+Get-Process -Name "Code" | Where-Object { $_.WorkingSet -gt 200MB } | Select-Object Id, ProcessName
+
+
+### **Instrucciones para el Lab #1**
+
+1. En el CMD, ejecutar:
+```cmd
+tasklist
+
+
+*Luego, elija un proceso de la lista y copie su nombre (sin la extensión .exe).*
+2. **En PowerShell, ejecutar el filtro:**
+```powershell
+Get-Process -Name "nombre-proceso" | Where-Object { $_.WorkingSet -gt valor-numerico-unidad-almacenamiento }
+
+
+> **Nota:** Sustituye `nombre-proceso` por el nombre que elegiste y `valor-numerico-unidad-almacenamiento` por un valor (ejemplo: `100MB`).
+
+
+3. **Repetir:** Realizar este ejercicio con todos los procesos listados en el comando `tasklist`.
+
+Ejemplo práctico:
+
+```powershell
+Get-Process -name "chrome" | Where-Object { $_.WorkingSet -gt 200MB }
+
 
 
