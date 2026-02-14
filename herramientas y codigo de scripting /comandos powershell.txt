@@ -1,13 +1,13 @@
-comando para buscar procesos 
+
+Powershell puede combinar comandos para que uno complemente al otro Y ASI EJECUTAR VARIOS COMANDOS ALMISMO TIEMPO, Y COMANDOS COMPLEMENTARIOS QUE UNO NECESITE DE OTRO . POWERSHELL, ES UN LENGUAJE DE PROGRAMACION QUE SE PUEDE COMBINAR CON PITHONE Y JS PARA DESARROLLAR SCCRIPTS QUE AUTOMATISE Y DEMAS COSAS.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxx  comando para buscar procesos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Línea de comando principal (PowerShell Pipeline)
 
 powershell
 Get-Process -Name "Code" | Where-Object { $_.WorkingSet -gt 200MB } | Select-Object Id, ProcessName
 
-
-
-####### instrucciones paso a paso ##############################
 
 paso #1: en el cmd, ejecutar:
 
@@ -30,9 +30,9 @@ ejemplo:
 powershell
 Get-Process -name "chrome"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
- Comando Principal de Análisis (Lab #2)**
+ Comando Principal de Análisis (Lab #2)
 
 Este comando filtra procesos específicos basándose en su uso de memoria:
 
@@ -49,16 +49,14 @@ tasklist
 
 *Luego, elija un proceso de la lista y copie su nombre (sin la extensión .exe).*
 2. **En PowerShell, ejecutar el filtro:**
-```powershell
+powershell
 Get-Process -Name "nombre-proceso" | Where-Object { $_.WorkingSet -gt valor-numerico-unidad-almacenamiento }
 
 
 > Nota: Sustituye `nombre-proceso` por el nombre que elegiste y `valor-numerico-unidad-almacenamiento` por un valor (ejemplo: `100MB`).
 
+###########################################################################################################################
 
-3. Repetir: Realizar este ejercicio con todos los procesos listados en el comando `tasklist`.
-
-Ejemplo práctico:
 
 powershell
 Get-Process -name "chrome" | Where-Object { $_.WorkingSet -gt 20MB }  -   xxxxxx se usa para ver un proceso en especifico que pese esa cantidad en mb
@@ -66,4 +64,55 @@ Get-Process -name "chrome" | Where-Object { $_.WorkingSet -gt 20MB }  -   xxxxxx
 Get-Process -Name "igfxcuiservice" | Where-Object { $_.WorkingSet -gt 200MB } | Select-Object Id, ProcessName  xxxxx se usa para ver un dato especifico  de todas las tablas que presentan ejemplo el id
 
 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxmas codigos y para que sirven xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 1. Filtrar por Uso de CPU (Carga de trabajo)
+
+Si quieres encontrar procesos que están consumiendo mucho procesador en lugar de memoria:
+
+```powershell
+Get-Process | Where-Object { $_.CPU -gt 50 } | Select-Object Id, ProcessName, CPU
+
+```
+
+* **Explicación:** Muestra procesos que han usado más de 50 segundos de tiempo de CPU.
+
+### 2. Filtrar por Compañía o Fabricante
+
+Útil para identificar procesos que no son de Microsoft o de un proveedor específico:
+
+```powershell
+Get-Process | Where-Object { $_.Company -notlike "*Microsoft*" } | Select-Object ProcessName, Company
+
+```
+
+* **Explicación:** Filtra y muestra solo procesos cuyo fabricante **no** sea Microsoft.
+
+### 3. Ordenar los resultados (Sorting)
+
+Puedes combinar el filtro de memoria que ya tienes con un ordenamiento para ver quién consume más arriba:
+
+```powershell
+Get-Process | Where-Object { $_.WorkingSet -gt 100MB } | Sort-Object WorkingSet -Descending | Select-Object Id, ProcessName, WorkingSet
+
+
+
+* **Explicación:** Filtra procesos mayores a 100MB y los ordena de mayor a menor consumo.
+
+### 4. Filtrar por múltiples condiciones (Operadores Lógicos)
+
+Puedes buscar procesos que cumplan dos cosas a la vez usando `-and`:
+
+```powershell
+Get-Process | Where-Object { $_.WorkingSet -gt 100MB -and $_.ProcessName -like "s*" }
+
+
+* **Explicación:** Busca procesos que pesen más de 100MB **y** cuyo nombre empiece con la letra "s".
+
+### 5. Contar cuántos procesos cumplen el filtro
+
+Si solo necesitas el número total para un reporte:
+
+```powershell
+(Get-Process | Where-Object { $_.WorkingSet -gt 200MB }).Count
 
